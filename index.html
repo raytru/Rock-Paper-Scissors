@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Page Title</title>
-  <meta charset="UTF-8"/>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css"/>
+  </html>
 <body>
+  <main>
+    <div class="score">
+      <div class="player-score">
+        <h2>Player</h2>
+        <p>0</p>
+      </div>
+      <div class="computer-score">
+        <h2>CPU</h2>
+        <p>0</p>
+      </div>
+    </div>
+    <div class="title">
+      <h1>ROCK, PAPER, SCISSORS</h1>
+      <p>Rock beats scissors, scissors beats paper, and paper beats rock.</p>
+    </div>
+
+    
+    <div class="choices">
+      <button class="rockBtn"><p>Rock</p></button>
+      <button class="paperBtn"><p>Paper</p></button>
+      <button class="scissorBtn"><p>Scissors</p></button>
+    </div>
+
+    <div>
+      <h3>Result:</h3>
+      <p id="result"></p>
+    </div>
+ 
+  </main>
   <script src="app.js"></script>
 </body>
 </html>
